@@ -10,6 +10,6 @@ def sum
 		sum+=row[0].to_i
 
 		end
-	render plain: "%.2f" % (sum).ceil;
+	#render plain: "%.2f" % (sum).ceil;
 end
 end
